@@ -1,0 +1,23 @@
+# PHP / Composer
+/vendor/
+composer.phar
+composer.lock
+.env.php
+.phpunit.result.cache
+
+# Pliki środowiskowe i konfiguracyjne
+.env
+*.env
+
+# Duże pliki danych – nie commitujemy całego datasetu
+*.csv
+*.xlsx
+*.json
+!data/.gitkeep
+
+# Katalogi z danymi tymczasowymi
+/data/tmp/
+
+# Pliki systemowe
+.DS_Store
+Thumbs.db
